@@ -6,19 +6,22 @@ function isOdd(num) {
         if (num === 0) {
             return false;
         }
-        if (num === 1) {
+        if (num.isOdd()){
+            return isEven();
+        }
+        if (num === -1) {
             return true;
         }
-        if (num === 2) {
+        if (num === -2) {
             return false;
         }
-        if (num === 3) {
+        if (num === -3) {
             return true;
         }
-        if (num === 4) {
+        if (num === -4) {
             return false;
         }
-        if (num === 5) {
+        if (num === -5) {
             return true;
         }
         if (num === 6) {
